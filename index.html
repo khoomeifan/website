@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="photos/mt.png">
+		<meta name="author" content="Shawn Zheng">
+		<meta name="keywords" content="music, french horn, horn, orchestra, band, rice university, colburn, washington dc, houston, murfreesboro">
+		<meta name="description" content="online portfolio of musician and educator Shawn Zheng">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shawn Zheng | Home</title>
+		<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--put some navigation out of the home page-->
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="topnav">
+  <a href="index.html" class="active" class="selected">Shawn Zheng</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="performing.html">performing</a>
+    <a href="teaching.html">teaching</a>
+    <a href="contact.html">contact</a>  
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i style="font-size: 25px; margin-top:8px; margin-left: 6px;" class="fa fa-bars"></i>
+  </a>
+</div>
+
+<figure id="desktop_cover">
+  <img id="desktop_cover"src="photos/desktop_cover.JPG" alt="cover">
+  <figcaption style="margin-top: 2px; margin-right: 10%; font-size: 12px; font-family: open_sans; margin-bottom: 5%;">Photo by Abigail Kralik</figcaption>
+</figure>
+
+<figure id="mobile_cover"></figure>
+<img src="photos/mobile_cover2.jpg" alt="cover" id="mobile_cover">
+<figcaption id="mobile_cover" style=" text-align: right; padding-right: 5%; font-size: 12px; font-family: open_sans; margin-bottom: 5%;">photo by Abigail Kralik</figcaption>
+</figure>
+
+<div id="sidenav">
+  <a href=index.html>
+    <p class="selected">about</p>
+  </a>
+  <a href="performing.html">
+    <p>performing</p>
+  </a>
+  <a href="teaching.html">
+    <p>teaching</p>
+  </a>
+  <a href="contact.html">
+    <p>contact</p>
+  </a>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+<!--
+<h1>Molly Turner</h1>
+<img src="photos/cover.jpeg" alt="cover" class="cover">
+<p><a class="contents" href="about.html">about</a></p>
+<p><a class="contents" href="conducting.html">conducting</a></p>
+<p><a class="contents" href="composition.html">composition</a></p>
+<p><a class="contents" href="collaboration.html">collaboration</a></p>
+<p><a class="contents" href="writing.html">writing</a></p>
+<p><a class="contents" href="contact.html">contact</a></p>
+-->
+
+</body>
+</html>
