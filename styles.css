@@ -396,13 +396,13 @@ body{
 
 @font-face {
   font-family: opensans;
-  src: url(./css/fonts/opensans/opensans-light.ttf)
+  src: url(/fonts/opensans/OpenSans-Light.ttf)
     
 }
 
 @font-face {
   font-family: opensans-regular;
-  src: url(./css/fonts/opensans/opensans-regular.ttf)
+  src: url(/fonts/opensans/OpenSans-Regular.ttf)
 }
 
 
@@ -413,12 +413,12 @@ body{
 
 @font-face {
   font-family: open_sans;
-  src: url(./css/fonts/opensans/OpenSans-Regular.ttf)
+  src: url(/fonts/opensans/OpenSans-Regular.ttf)
 }
 
 @font-face {
   font-family: open_sans_bold;
-  src: url(./css/fonts/opensans/OpenSans-Bold.ttf)
+  src: url(/fonts/opensans/OpenSans-Bold.ttf)
 }
 
 hr{
