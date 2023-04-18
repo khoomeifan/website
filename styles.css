@@ -313,11 +313,11 @@ font
   font-size: 20px;
   padding-left: 0px;
   padding-right: 0px;
-  font-family: pt_serif;
+  font-family: opensans;
 }
 
 .content{
-  font-family: pt_serif;
+  font-family: opensans;
   font-size: 17px;
   margin: 0px;
   padding-left: 12px;
@@ -396,13 +396,12 @@ body{
 
 @font-face {
   font-family: opensans;
-  src: url(/fonts/opensans/OpenSans-Light.ttf)
-    
+  src: url(fonts/opensans/opensans-light.ttf)
 }
 
 @font-face {
   font-family: opensans-regular;
-  src: url(/fonts/opensans/OpenSans-Regular.ttf)
+  src: url(fonts/opensans/opensans-regular.ttf)
 }
 
 
@@ -413,12 +412,12 @@ body{
 
 @font-face {
   font-family: open_sans;
-  src: url(/fonts/opensans/OpenSans-Regular.ttf)
+  src: url(fonts/opensans/OpenSans-Regular.ttf)
 }
 
 @font-face {
   font-family: open_sans_bold;
-  src: url(/fonts/opensans/OpenSans-Bold.ttf)
+  src: url(fonts/opensans/OpenSans-Bold.ttf)
 }
 
 hr{
