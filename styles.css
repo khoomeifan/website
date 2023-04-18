@@ -396,12 +396,12 @@ body{
 
 @font-face {
   font-family: opensans;
-  src: url(fonts/opensans/opensans-light.ttf)
+  src: url(fonts/opensans/OpenSans-Light.ttf)
 }
 
 @font-face {
   font-family: opensans-regular;
-  src: url(fonts/opensans/opensans-regular.ttf)
+  src: url(fonts/opensans/OpenSans-Regular.ttf)
 }
 
 
