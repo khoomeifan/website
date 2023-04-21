@@ -414,13 +414,9 @@ body{
   src: url(fonts/proza/prozalibre-regular.ttf)
 }
 
-@font-face {
-  font-family: open_sans;
-  src: url(fonts/opensans/OpenSans-Regular.ttf)
-}
 
 @font-face {
-  font-family: open_sans_bold;
+  font-family: opensans_bold;
   src: url(fonts/opensans/OpenSans-Bold.ttf)
 }
 
