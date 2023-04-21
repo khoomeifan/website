@@ -328,6 +328,7 @@ body{
   margin: 0px;
   font-size: 15px;
   font-family: pt_serif;
+  overflow-x: hidden;
 }
 
 /* Style the navigation menu */
