@@ -321,8 +321,10 @@ font
   font-family: opensans;
   font-size: 17px;
   margin: 0px;
-  padding-left: 12px;
-  padding-right: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  
+  
   
 }
 
