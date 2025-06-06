@@ -114,7 +114,7 @@
 function checkPassword() {
     var password = prompt("Enter password:");
     var encoded = btoa(password);
-    if (encoded === "Y2l2aWxkaXNvYmVkaWVuY2U=") {
+    if (encoded === "Y2l2aWxkaXNjb2JlZGllbmNl") {
         window.location.href = "writings.html";
     } else if (password !== null) {
         alert("Incorrect password");
