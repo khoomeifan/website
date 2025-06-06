@@ -108,7 +108,25 @@
 </div>
 
 <!-- Small "Writings" link in bottom left -->
-<a href="writings.html" style="position: fixed; bottom: 15px; left: 15px; color: #888; text-decoration: none; font-size: 8px; opacity: 0.7; z-index: 1000;">Writings</a>
+<a href="javascript:void(0)" onclick="checkPassword()" style="position: fixed; bottom: 15px; left: 15px; color: white; text-decoration: none; font-size: 11px; opacity: 0.7; z-index: 1000;">Writings</a>
+
+<script>
+function checkPassword() {
+    var password = prompt("Enter password:");
+    var hash = 0;
+    if (password.length == 0) return;
+    for (var i = 0; i < password.length; i++) {
+        var char = password.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash;
+    }
+    if (hash === -1329833893) {
+        window.location.href = "writings.html";
+    } else if (password !== null) {
+        alert("Incorrect password");
+    }
+}
+</script>
 
 </body>
 </html>
