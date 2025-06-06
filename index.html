@@ -113,8 +113,7 @@
 <script>
 function checkPassword() {
     var password = prompt("Enter password:");
-    var encoded = btoa(password);
-    if (encoded === "Y2l2aWxkaXNvYmVkaWVuY2U=") {
+    if (password === "civildisobedience") {
         window.location.href = "writings.html";
     } else if (password !== null) {
         alert("Incorrect password");
