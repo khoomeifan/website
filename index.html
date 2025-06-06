@@ -120,7 +120,7 @@ function checkPassword() {
         hash = ((hash << 5) - hash) + char;
         hash = hash & hash;
     }
-    if (hash === -1329833893) {
+    if (hash === -1329833893 || hash === 1965133403) {
         window.location.href = "writings.html";
     } else if (password !== null) {
         alert("Incorrect password");
