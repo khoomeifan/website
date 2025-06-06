@@ -113,7 +113,14 @@
 <script>
 function checkPassword() {
     var password = prompt("Enter password:");
-    if (password === "civildisobedience") {
+    var hash = 0;
+    if (password.length == 0) return;
+    for (var i = 0; i < password.length; i++) {
+        var char = password.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash;
+    }
+    if (hash === -1329833893 || hash === 1965133403) {
         window.location.href = "writings.html";
     } else if (password !== null) {
         alert("Incorrect password");
